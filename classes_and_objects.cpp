@@ -1,18 +1,18 @@
-#include <iostream>  
-using namespace std;  
-class Student {  
-     public:  
-        int id;//data member       
-        string name;//data member  
-};  
-int main() 
-{  
-	Student s1; //creating an object of Student   
+#includeï¿½<iostream>ï¿½ï¿½
+usingï¿½namespaceï¿½std;ï¿½ï¿½
+classï¿½Studentï¿½{ï¿½ï¿½
+    ï¿½public:ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½intï¿½id;//dataï¿½memberï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½stringï¿½name;//dataï¿½memberï¿½ï¿½
+};ï¿½ï¿½
+intï¿½main()ï¿½
+{ï¿½ï¿½
+	Studentï¿½s1;ï¿½//creatingï¿½anï¿½objectï¿½ofï¿½Studentï¿½ï¿½ï¿½
 	
-	s1.id = 069;    
-	s1.name = "joshasree";   
-	cout<<s1.id<<endl;  
-	cout<<s1.name<<endl;  
+	s1.idï¿½=ï¿½069;ï¿½ï¿½ï¿½ï¿½
+	s1.nameï¿½=ï¿½"joshasree_Maturi";ï¿½ï¿½ï¿½
+	cout<<s1.id<<endl;ï¿½ï¿½
+	cout<<s1.name<<endl;ï¿½ï¿½
 
-	return 0;  
-}  
+	returnï¿½0;ï¿½ï¿½
+}ï¿½ï¿½
